@@ -86,6 +86,8 @@ footer p {
     color: var(--color2, white);
     background-color: var(--color1, black);
     background-image: url("images/girl750.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 750px;
 }
 
