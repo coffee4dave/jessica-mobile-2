@@ -83,22 +83,21 @@ footer p {
     color: rgba(0, 0, 0, 0.5);
 }
 
-#hero {
-    color: var(--color2, white);
-    background-color: var(--color1, black);
+.jumbotron {
+
     background-image: url("images/girl750.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 750px;
+    /* height: 750px; */
 }
 
-#hero img {
-    width: 100%;
-    height: auto;
+.jumbotron .container {
+    width: 70%;
 }
 
 #hwrap {
     text-align: center;
+    color: var(--color2, white);
     background-color: rgba(0, 0, 0, 0.5);
 
     padding-top: 0.5rem;
@@ -112,7 +111,7 @@ footer p {
     margin: 2rem;
 }
 
-#hero .btn-outline-secondary {
+#hwrap .btn-outline-secondary {
     color: var(--color5);
     border-color: var(--color5);
 }
